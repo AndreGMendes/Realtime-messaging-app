@@ -20,7 +20,10 @@ const geistMono = localFont({
   variable: '--font-geist-mono',
   weight: '100 900'
 })
-const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
+const inter = Inter({ 
+  subsets: ['latin'], 
+  variable: '--font-sans' 
+})
 const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-serif'
