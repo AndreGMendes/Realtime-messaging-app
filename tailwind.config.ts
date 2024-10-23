@@ -69,6 +69,13 @@ const config: Config = {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)'
+      },
+      fontSize: {
+        xxs: '0.625rem' // Extra extra small (10px)
+      },
+      brightness: {
+        40: '.40',
+        60: '.60',
       }
     }
   },
